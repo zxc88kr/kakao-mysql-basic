@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.fastcampusmysql.domain.member.entity.MemberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-04T09:27:40" hostname="CHAN" time="0.021">
-  <properties/>
-  <testcase name="회원은 닉네임을 변경할 수 있다" classname="com.example.fastcampusmysql.domain.member.entity.MemberTest" time="0.009"/>
-  <testcase name="회원 닉네임의 길이는 10자를 초과할 수 없다" classname="com.example.fastcampusmysql.domain.member.entity.MemberTest" time="0.011"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
