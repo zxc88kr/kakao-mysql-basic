@@ -54,8 +54,6 @@ create index POST__index_member_id
 create index POST__index_created_date
     on POST (createdDate);
 
-
-
 create table Timeline
 (
     id int auto_increment,
@@ -66,7 +64,6 @@ create table Timeline
         primary key (id)
 );
 
-
 create table PostLike
 (
     id int auto_increment,
@@ -76,5 +73,3 @@ create table PostLike
     constraint PostLike_id_uindex
         primary key (id)
 );
-
-
