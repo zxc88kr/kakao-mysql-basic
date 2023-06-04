@@ -9,12 +9,12 @@ import java.util.Objects;
 
 @Getter
 public class Member {
-    final private Long id;
+    private final Long id;
     private String nickname;
-    final private String email;
-    final private LocalDate birthday;
-    final private LocalDateTime createdAt;
-    final private static Long NAME_MAX_LENGTH = 10L;
+    private final String email;
+    private final LocalDate birthday;
+    private final LocalDateTime createdAt;
+    private final static Long NAME_MAX_LENGTH = 10L;
 
     @Builder
     public Member(Long id, String nickname, String email, LocalDate birthday, LocalDateTime createdAt) {

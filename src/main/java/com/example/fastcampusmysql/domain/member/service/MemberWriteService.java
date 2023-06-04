@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Service
 public class MemberWriteService {
-    final private MemberRepository memberRepository;
+    private final MemberRepository memberRepository;
 
-    public Member create(RegisterMemberCommand command) {
+    public Member register(RegisterMemberCommand command) {
         var member = Member.builder()
                 .email(command.email())
                 .nickname(command.nickname())
