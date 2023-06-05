@@ -14,7 +14,7 @@ public class Member {
     private final String email;
     private final LocalDate birthday;
     private final LocalDateTime createdAt;
-    private final static Long NAME_MAX_LENGTH = 10L;
+    private static final Long NAME_MAX_LENGTH = 10L;
 
     @Builder
     public Member(Long id, String nickname, String email, LocalDate birthday, LocalDateTime createdAt) {
